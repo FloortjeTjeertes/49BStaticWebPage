@@ -1,5 +1,7 @@
-<script setup></script>
+<script setup>
+import MainHeader from '/src/views/Header.vue'
+</script>
 
 <template>
-  <main>home</main>
+  <div>home</div>
 </template>
