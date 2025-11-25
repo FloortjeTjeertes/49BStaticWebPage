@@ -4,8 +4,8 @@ import { FwbNavbar, FwbNavbarCollapse, FwbNavbarLink, FwbNavbarLogo } from 'flow
 <template>
   <fwb-navbar>
     <template #logo>
-      <fwb-navbar-logo alt="Flowbite logo" image-url="./public/images/49BLogo.png" link="#">
-        Flowbite
+      <fwb-navbar-logo alt="Flowbite logo" image-url="./images/49BLogo.png" link="#">
+        49B
       </fwb-navbar-logo>
     </template>
     <template #default="{ isShowMenu }">
@@ -13,7 +13,9 @@ import { FwbNavbar, FwbNavbarCollapse, FwbNavbarLink, FwbNavbarLogo } from 'flow
         <fwb-navbar-link is-active link="/">
           <RouterLink to="/">Home</RouterLink>
         </fwb-navbar-link>
-        <fwb-navbar-link><RouterLink to="/games"> Our Games</RouterLink> </fwb-navbar-link>
+        <fwb-navbar-link link="/np"
+          ><RouterLink to="/games"> Our Games</RouterLink>
+        </fwb-navbar-link>
       </fwb-navbar-collapse>
     </template>
   </fwb-navbar>
