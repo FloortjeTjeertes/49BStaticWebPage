@@ -1,17 +1,17 @@
 <script setup></script>
 
 <template>
-  <section class="bg-white dark:bg-gray-900">
+  <section class="bg-gray-900 dark:bg-gray-900">
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
       <div class="mr-auto place-self-center lg:col-span-7">
         <h1
-          class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white"
+          class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white dark:text-white"
         >
           Games from outer space
           <!--place whatever catch frase needs to be here-->
         </h1>
         <p
-          class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
+          class="max-w-2xl mb-6 font-light text-gray-400 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
         >
           making games that inspire and make you give a feeling that makes you shout:'weeeeee'
           <!--change to actual text in the future-->
@@ -36,7 +36,7 @@
         </a>
         <a
           href="#"
-          class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+          class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center rounded-lg border text-white border-gray-700 hover:bg-gray-700 focus:ring-4 focus:ring-gray-800 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
         >
           Speak to Sales
         </a>
