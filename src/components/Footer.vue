@@ -1,11 +1,5 @@
 <script setup>
-import {
-  FwbFooter,
-  FwbFooterCopyright,
-  FwbFooterLink,
-  FwbFooterLinkGroup,
-  FwbFooterBrand,
-} from 'flowbite-vue'
+import { FwbFooter, FwbFooterCopyright, FwbFooterLink, FwbFooterLinkGroup } from 'flowbite-vue'
 </script>
 <template>
   <fwb-footer footer-type="socialmedia">

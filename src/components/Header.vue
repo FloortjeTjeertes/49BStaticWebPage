@@ -2,7 +2,7 @@
 import { FwbNavbar, FwbNavbarCollapse, FwbNavbarLink, FwbNavbarLogo } from 'flowbite-vue'
 </script>
 <template>
-  <fwb-navbar>
+  <fwb-navbar solid>
     <template #logo>
       <fwb-navbar-logo alt="Flowbite logo" image-url="./images/49BLogo.png" link="#">
         49B
