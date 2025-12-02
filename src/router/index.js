@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 import GamePage from '@/views/GamePage.vue'
 import RunningBeehind from '@/views/RunningBeehind.vue'
+import About from '@/views/About.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -20,6 +21,11 @@ const router = createRouter({
       path: '/runningBeehind',
       name: 'runningBeehind',
       component: RunningBeehind,
+    },
+    {
+      path: '/about',
+      name: 'about',
+      component: About,
     },
   ],
 })

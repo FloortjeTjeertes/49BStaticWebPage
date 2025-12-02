@@ -22,6 +22,9 @@ import {
         <fwb-navbar-link link="/">
           <RouterLink to="/games">games</RouterLink>
         </fwb-navbar-link>
+        <fwb-navbar-link link="/">
+          <RouterLink to="/about">about</RouterLink>
+        </fwb-navbar-link>
         <fwb-dropdown>
           <template #trigger>
             <fwb-button color="light">
