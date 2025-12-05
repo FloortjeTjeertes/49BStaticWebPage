@@ -42,10 +42,10 @@ import { FwbCard, FwbHeading, FwbP, FwbImg, FwbButton } from 'flowbite-vue'
             An exciting platforming game set in an world where fantasy and technology combine!
           </p>
           <router-link to="/games"
-            ><fwb-button color="default">public tests available!</fwb-button></router-link
-          >
+            ><fwb-button color="default">public tests available!</fwb-button></router-link>
         </div>
       </fwb-card>
+      <!-- Not needed yet
       <fwb-card
         href="#"
         img-alt="placeholder"
@@ -53,18 +53,20 @@ import { FwbCard, FwbHeading, FwbP, FwbImg, FwbButton } from 'flowbite-vue'
         variant="image"
         class="basis-1/2 max-w-24 min-h-full"
       >
+      
         <div class="p-5">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-            More Comming Soon!
+            More Coming Soon!
           </h5>
           <p class="font-normal text-gray-700 dark:text-gray-400 pb-10">
-            more games comming soon! check out the game pages for all our current games!
+            More games coming soon! check out the game pages for all our current games!
           </p>
           <router-link to="/games"
             ><fwb-button color="default">public tests available!</fwb-button></router-link
           >
         </div>
       </fwb-card>
+       -->
     </section>
   </section>
 </template>
